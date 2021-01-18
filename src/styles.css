@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App_Title {
+  font-size: 5em;
+}
+.App {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+.Graph {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+#Selector {
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  align-items: center;
+}
+#icon {
+  color: white;
+  margin-right: 1em;
+}

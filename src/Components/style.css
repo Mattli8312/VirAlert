@@ -1,0 +1,19 @@
+.Card {
+  border: 1px solid;
+  width: 20vw;
+  cursor: pointer;
+  margin: 1vw;
+  border-radius: 1vw;
+  padding: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.5s;
+}
+.Card:hover {
+  transform: translatey(-15px);
+}
+.Chart {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
